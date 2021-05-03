@@ -14,17 +14,17 @@ const routes = [
     },
     {
         method: 'GET',
-        path: 'notes/{id}',
+        path: '/notes/{id}',
         handler: getAllNotesHandler,
     },
     {
         method: 'PUT',
-        path: 'notes/{id}',
+        path: '/notes/{id}',
         handler: editNoteByIdHandler,
     },
     {
         method: 'DELETE',
-        path: 'notes/{id}',
+        path: '/notes/{id}',
         handler: deleteNoteByIdHandler,
     },
 ];
