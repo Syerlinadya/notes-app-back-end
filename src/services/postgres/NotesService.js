@@ -10,7 +10,7 @@ class NotesService {
   }
 
   async addNote({ title, body, tags }) {
-    const id = nanoid(16);
+    const id = `note-${nanoid(16)}`;
     const createdAt = new Date().toISOString();
     const updatedAt = createdAt;
 
